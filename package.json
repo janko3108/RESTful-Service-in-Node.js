@@ -1,0 +1,26 @@
+{
+    "name": "marasovic-kristina-p3",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Kristina Marasovic [kristina.marasovic@croatia.rit.edu]",
+    "contributors": [],
+    "dependencies": {
+        "companydata": "file:companydata",
+        "express": "4.21.1",
+        "moment": "^2.30.1"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "start-inspect": "node inspect app.js",
+        "start-nodemon": "nodemon app.js"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
